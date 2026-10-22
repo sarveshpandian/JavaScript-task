@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: #28568a;
+    color: black;
+}
+
+.side {
+    background: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.side h3 {
+    background: #28568a;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.main {
+    margin-left: 240px;
+    padding: 5px;
+}
+
+h1 {
+    color: black;
+}
+.section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+form, .tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+button {
+    background: #078568;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    background: #e74c3c;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+td button {
+    background: #e74c3c;
+}
+
+#warning {
+    color: #d63031;
+}
+
+.footer {
+    text-align: center;
+}
